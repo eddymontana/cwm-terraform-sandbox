@@ -22,5 +22,6 @@ resource "google_storage_bucket" "simulation_test_bucket" {
   labels = {
     environment = "sandbox"
     managed_by  = "terraform"
+    test_run    = "cwm-simulation-v1"
   }
 }
